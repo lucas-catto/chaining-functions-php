@@ -1,0 +1,8 @@
+
+CREATE DATABASE functions;
+USE functions;
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(60) NOT NULL
+);
